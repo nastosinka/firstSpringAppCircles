@@ -1,0 +1,86 @@
+##############################
+#  Backend: /server (Spring Boot + Gradle)
+##############################
+
+/server/.gradle/
+/server/build/
+/server/bin/
+/server/out/
+
+# Gradle Wrapper
+!/server/gradle/wrapper/gradle-wrapper.jar
+
+# STS (Spring Tool Suite)
+server/.apt_generated
+server/.classpath
+server/.factorypath
+server/.project
+server/.settings/
+server/.springBeans
+server/.sts4-cache
+
+# IntelliJ IDEA
+/server/.idea/
+/server/*.iml
+
+# VS Code
+/server/.vscode/
+
+# Java class files
+*.class
+
+# Application properties (часто содержит секреты)
+/server/src/main/resources/application.properties
+
+# Логи
+*.log
+
+# Документация
+/server/HELP.md
+
+##############################
+#  Frontend: /frontend (Node.js, React и т.д.)
+##############################
+
+/frontend/node_modules/
+/frontend/build/
+/frontend/.pnp
+/frontend/.pnp.js
+
+# Coverage reports
+/frontend/coverage/
+
+# Env files
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+# Log files
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# macOS
+/frontend/.DS_Store
+
+# IntelliJ & VS Code
+/frontend/.idea/
+/frontend/.vscode/
+
+##############################
+#  Общие вещи
+##############################
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
